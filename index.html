@@ -811,7 +811,25 @@ tr:nth-child(even) td {
 	h1 {
 		font-size: 1.7rem;
 	}
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="StoryInit" tags="" position="600,100" size="100,100">&lt;&lt;set $risk = 50&gt;&gt;
+}
+
+/* Force the SugarCube dashboard to remain light */
+:root { color-scheme: light !important; }
+#ui-bar,
+#ui-bar-body,
+#story-caption {
+    background-color: #f8fafc !important;
+    background-image: none !important;
+    color: #273c4d !important;
+}
+#ui-bar {
+    border-right: 1px solid #c7d4de !important;
+}
+#ui-bar-history [id|="history"],
+#ui-bar-toggle {
+    color: #315e7c !important;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="StoryInit" tags="" position="600,100" size="100,100">&lt;&lt;set $risk = 50&gt;&gt;
 &lt;&lt;set $output = 50&gt;&gt;
 &lt;&lt;set $trust = 50&gt;&gt;
 &lt;&lt;set $spc = 50&gt;&gt;
